@@ -1,0 +1,11 @@
+# Example targets file - copy to targets.txt (single link, NUM_LINKS=1) or to
+# targets01.txt, targets02.txt, ... (one per link when NUM_LINKS>1 in .env).
+# The real targets*.txt files are gitignored so each install keeps its own list.
+#
+# One host (IP or name) per line. Anything after # is ignored, so comment a
+# line out to stop monitoring it. After editing, run: bat_many_ping.bat restart
+8.8.8.8     # Google DNS
+1.1.1.1     # Cloudflare DNS
+#9.9.9.9    # Quad9 DNS
+#8.8.4.4    # Google DNS secondary
+#192.168.1.1 # your gateway/router

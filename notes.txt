@@ -1,0 +1,2 @@
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd
+https://www.instructables.com/Batch-Files-Some-basics...../
